@@ -25,6 +25,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 NUKE_AUDIOFX := true
 
 YAOYORO_MAINTAINER := fukiame
+TARGET_EXCLUDE_ADB_ROOT := true
 
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
